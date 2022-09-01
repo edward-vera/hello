@@ -1,0 +1,48 @@
+We are building the worlds best todo app
+C.R.U.D.
+
+Create / POST(for new stuff)
+Create a new Workout on our todo list
+
+
+Read / GET
+reads the items on the list
+read only one 1 item from the list
+
+
+Update / PUT(for updating stuff)
+checks off, change, update, an item
+
+
+Delete / DELETE
+removes item from the list (mistake)
+
+
+GET /todos
+return all the todo items on my list
+
+
+app.get("todos", function(req, res){
+    let completed = req.params.completed
+} if{
+
+}if else{
+
+}else{
+    
+}
+
+
+If range is a shit ton of numbers use an :id variable
+GET /todos/:id
+return the todo item with id = :id (its going to return the item thats equal to :id) unless there isnt one, return 404
+
+
+:id is a placeholder for what ever item you chose 
+
+
+
+GET /todos/junk
+
+
+
